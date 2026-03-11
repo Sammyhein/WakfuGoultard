@@ -1,7 +1,7 @@
-import VictoireIop from "../assets/images/Victoire_Dieu_Iop_Dofus.webp";
-import AncienGoultard from "../assets/images/AncienGoultard.webp";
-import PortraitGoul from "../assets/images/Portrait_PortraitGoul.png";
-import PortraitDarkV from "../assets/images/Portrait_PortraitDarkV.png";
+import VictoireIop from "../assets/Images/Victoire_Dieu_Iop_Dofus.webp";
+import AncienGoultard from "../assets/Images/AncienGoultard.webp";
+import PortraitGoul from "../assets/Images/Portrait_PortraitGoul.png";
+import PortraitDarkV from "../assets/Images/Portrait_PortraitDarkV.png";
 
 const ankamaVerse =[{
     id:0,
