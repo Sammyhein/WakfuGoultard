@@ -4,7 +4,7 @@ import chronologie from "../data/chronologie";
 import Footer from "../components/Footer";
 
 function Chronologie() {
-  const [chronos, setChronos] = useState(chronologie);
+  const [chronos, _setChronos] = useState(chronologie);
   
   return (
     <> 

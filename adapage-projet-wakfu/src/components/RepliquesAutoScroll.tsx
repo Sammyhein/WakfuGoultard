@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import repliqueData from "../data/repliques";
-interface RepliqueProps {
-  repliques: string[];
-}
+// interface RepliqueProps {
+//   repliques: string[];
+// }
 
 export default function RepliquesAutoScroll() {
   const [index, setIndex] = useState(0);

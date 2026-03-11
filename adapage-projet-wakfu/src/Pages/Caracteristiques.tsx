@@ -10,55 +10,55 @@ import pouvoir from "../assets/Images/pouvoirIop.webp"
 import legende from "../assets/Images/legendeIop.jpg"
 import dieuIop2 from "../assets/Images/DieuIop2 - copie.jpg"
 
-interface Physique {
-  titre: string;
-  genre: string;
-  cheveux: string;
-  apparence: string;
-}
+// interface Physique {
+//   titre: string;
+//   genre: string;
+//   cheveux: string;
+//   apparence: string;
+// }
 
-interface Personnalite {
-  titre: string;
-  sagesse: string;
-  loyauté: string;
-  inspirant: string;
-  personalite: string;
-}
+// interface Personnalite {
+//   titre: string;
+//   sagesse: string;
+//   loyauté: string;
+//   inspirant: string;
+//   personalite: string;
+// }
 
-interface Pouvoir {
-  titre: string;
-  immortalité: string;
-  avatar: {
-    avatars: {
-      titre: string;
-      descpt: string;
-    }[];
-  };
-  dieu: {
-    titre: string;
-    descrpt: string;
-  };
-  force: {
-    titre: string;
-    descrpt: string;
-  };
-}
+// interface Pouvoir {
+//   titre: string;
+//   immortalité: string;
+//   avatar: {
+//     avatars: {
+//       titre: string;
+//       descpt: string;
+//     }[];
+//   };
+//   dieu: {
+//     titre: string;
+//     descrpt: string;
+//   };
+//   force: {
+//     titre: string;
+//     descrpt: string;
+//   };
+// }
 
-interface Legende {
-  titre: string;
-  descrpt1: string;
-  descrpt2: string;
-  descrpt3: string;
-}
+// interface Legende {
+//   titre: string;
+//   descrpt1: string;
+//   descrpt2: string;
+//   descrpt3: string;
+// }
 
-interface Caracteristique {
-  id: number;
-  replique: string;
-  physique: Physique;
-  personalite?: Personnalite;
-  pouvoir?: Pouvoir;
-  legende?: Legende;
-}
+// interface Caracteristique {
+//   id: number;
+//   replique: string;
+//   physique: Physique;
+//   personalite?: Personnalite;
+//   pouvoir?: Pouvoir;
+//   legende?: Legende;
+// }
 
 function Caracteristiques() {
   return (

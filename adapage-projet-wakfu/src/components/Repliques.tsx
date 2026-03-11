@@ -7,7 +7,7 @@ interface repliques{
 }
 
  function Repliques(){
-const [repliques, setSelectRepliques] = useState<repliques[]>(replique);
+const [repliques, _setSelectRepliques] = useState<repliques[]>(replique);
 
  return (
    <>

@@ -3,12 +3,12 @@ import Footer from "../components/Footer";
 
 
 import ankamaVerse from "../data/ankamaVerse";
-import { useState } from "react";
+// import { useState } from "react";
 
 
 
 function AnkamaVerse(){
-  const [avatars, setAvatars] = useState(ankamaVerse)
+  // const [avatars, setAvatars] = useState(ankamaVerse)
 
     return (
 
@@ -57,7 +57,7 @@ function AnkamaVerse(){
             .map((avatar) => (
               <div
                 key={avatar.id}
-                className="w-64 h-[420px] bg-linear-to-br from-gray-900 via-red-950 to-gray-900 p-6 rounded-2xl text-white border border-yellow-600 shadow-md flex flex-col items-center justify-between"
+                className="w-64 h-105 bg-linear-to-br from-gray-900 via-red-950 to-gray-900 p-6 rounded-2xl text-white border border-yellow-600 shadow-md flex flex-col items-center justify-between"
               >
                 <h1 className="text-lg font-bold text-yellow-500 text-center">
                   {avatar.name}
